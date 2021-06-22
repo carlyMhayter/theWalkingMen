@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+html {
+  background: url("https://images.unsplash.com/photo-1588729827527-cbe98472aa8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=438&q=80")
+    no-repeat center right fixed;
+  background-size: contain;
+  background-color: black;
+}
+
+body {
+  margin: 0px 0px;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  font-family: Playfair Display, serif;
+}
+
+.master-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .navlink {
+    font-size: 0.75em;
+  }
+}
+
+/***********************************************************************
+ *  NavBar
+ **********************************************************************/
+.navbar {
+  background: rgba(19, 19, 19, 0.75); /* Old browsers */
+  font-weight: bolder;
+}
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rightPush {
+  margin-left: auto;
+}
+
+.navbar-left {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+}
+
+.navlink {
+  padding: 0px 10px 0px 0px;
+}
+
+.navlink:hover {
+  transform: scale(1.1);
+}
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.cover {
+  width: 100%;
+  /* background: #000000; Old browsers */
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-logo {
+  height: 30vh;
+  filter: invert(1);
+  margin: 20px 10px;
+}
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+.footer {
+  background: #f3aaaa; /* Old browsers */
+  min: height 20px;
+}
+
+/***********************************************************************
+ *  Content
+ **********************************************************************/
+.content {
+  /* background: #cecabe; Old browsers */
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.05) inset;
+}
+
+.tile {
+  width: 85%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px;
+  background: rgba(34, 34, 34, 0.75);
+  border-radius: 10px;
+  border: #fff;
+}
+
+.img-tile {
+  background-color: red;
+  width: 40vw;
+  height: 35vh;
+  border: 2px 2px solid red;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: -5px 5px 20px 1px rgba(48, 34, 34, 0.5);
+}
+
+.text-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 45vw;
+  height: 35vh;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.text-tile-text-emp {
+  color: rgb(243, 234, 219);
+  font-size: 1.5em;
+  width: 100%;
+}
+.text-tile-text-minor {
+  color: rgb(214, 195, 176);
+  font-size: 1em;
+  width: 90%;
+}
+
+.tile1 {
+  display: flex;
+  justify-content: right;
+}
+
+.tile2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inner-tile {
+  margin: 20px 20px;
+}
+
+#wedding {
+  background-image: url("https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+#vineyard {
+  background-image: url("https://images.unsplash.com/photo-1558346489-19413928158b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+#party {
+  background-image: url("https://images.unsplash.com/photo-1508979822114-db019a20d576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+#guitar {
+  background-image: url("https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
