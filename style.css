@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crushed&family=Galada&display=swap");
 
 html {
   background: url("https://images.unsplash.com/photo-1588729827527-cbe98472aa8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=438&q=80")
@@ -12,7 +13,7 @@ body {
   min-height: 100%;
   height: 100%;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: Playfair Display, serif;
 }
 
@@ -21,23 +22,18 @@ body {
   flex-direction: column;
 }
 
-@media only screen and (max-width: 600px) {
-  .navlink {
-    font-size: 0.75em;
-  }
-}
-
 /***********************************************************************
  *  NavBar
  **********************************************************************/
 .navbar {
   background: rgba(19, 19, 19, 0.75); /* Old browsers */
-  font-weight: bolder;
+  width: 100%;
 }
 .navbar-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  font-family: Crushed, serif;
 }
 
 ul {
@@ -60,11 +56,12 @@ a {
 }
 
 .navlink {
-  padding: 0px 10px 0px 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 .navlink:hover {
   transform: scale(1.1);
+  color: #ffbe6f;
 }
 /***********************************************************************
  *  Cover
@@ -120,7 +117,7 @@ a {
 
 .img-tile {
   background-color: red;
-  width: 40vw;
+  width: 60%;
   height: 35vh;
   border: 2px 2px solid red;
   background-size: cover;
@@ -133,7 +130,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 45vw;
+  width: 35%;
   height: 35vh;
   background: rgba(0, 0, 0, 0.25);
 }
@@ -141,7 +138,7 @@ a {
 .text-tile-text-emp {
   color: rgb(243, 234, 219);
   font-size: 1.5em;
-  width: 100%;
+  width: 95%;
 }
 .text-tile-text-minor {
   color: rgb(214, 195, 176);
@@ -168,7 +165,7 @@ a {
 }
 
 #vineyard {
-  background-image: url("https://images.unsplash.com/photo-1558346489-19413928158b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-image: url("https://images.unsplash.com/photo-1605232433977-5b5d562812e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=678&q=80");
 }
 
 #party {
@@ -177,4 +174,91 @@ a {
 
 #guitar {
   background-image: url("https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+/***********************************************************************
+ *  Media Queries
+ **********************************************************************/
+@media only screen and (max-width: 600px) {
+  .navlink {
+    font-size: 0.75em;
+  }
+  /* .navbar {
+    background-color: rgb(68, 209, 219);
+  } */
+  .tile {
+    flex-direction: column;
+    height: 60vh;
+    width: 85vw;
+  }
+  .text-tile {
+    width: 90%;
+  }
+  .img-tile {
+    width: 90%;
+  }
+  .text-tile-text-emp {
+    font-size: 1em;
+  }
+  .text-tile-text-minor {
+    font-size: 0.75em;
+  }
+  .inner-tile {
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .master-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cover {
+    width: 800px;
+  }
+  .content {
+    width: 800px;
+  }
+  /* .navbar {
+    background-color: rgb(157, 236, 67);
+  } */
+
+  .tile {
+    flex-direction: row;
+    width: 95%;
+  }
+  .text-tile {
+    width: 90%;
+  }
+  .img-tile {
+    width: 90%;
+  }
+  .text-tile-text-emp {
+    font-size: 1.25em;
+  }
+  .text-tile-text-minor {
+    font-size: 0.75em;
+  }
+  .inner-tile {
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .master-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cover {
+    width: 1100px;
+  }
+  .content {
+    width: 1100px;
+  }
+  /* .navbar {
+    background-color: rgb(211, 58, 12);
+  }*/
 }
