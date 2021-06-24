@@ -93,7 +93,6 @@ a {
  *  Content
  **********************************************************************/
 .content {
-  /* background: #cecabe; Old browsers */
   text-align: center;
   width: 100%;
   display: flex;
@@ -116,10 +115,8 @@ a {
 }
 
 .img-tile {
-  background-color: red;
   width: 60%;
   height: 35vh;
-  border: 2px 2px solid red;
   background-size: cover;
   border-radius: 5px;
   box-shadow: -5px 5px 20px 1px rgba(48, 34, 34, 0.5);
