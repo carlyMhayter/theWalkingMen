@@ -200,7 +200,6 @@ a {
 .img-tile {
   width: 60%;
   flex: 0 0 auto;
-  border: 2px 2px solid rgba(0, 0, 0, 0.5);
   background-size: cover;
   border-radius: 5px;
   box-shadow: -5px 5px 20px 1px rgba(48, 34, 34, 0.5);
