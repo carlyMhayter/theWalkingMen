@@ -1,11 +1,12 @@
 import("../style.css");
+import NavBar from "../components/Navbar";
 
 // import App from 'next/app'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {" "}
-      Hi <Component {...pageProps} />
+      <NavBar />
+      <Component {...pageProps} />
     </>
   );
 }
