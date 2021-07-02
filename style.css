@@ -7,8 +7,7 @@
   padding: 0px;
 }
 html {
-  background: url("https://images.unsplash.com/photo-1588729827527-cbe98472aa8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=438&q=80")
-    no-repeat center right fixed;
+  background: url("./dark-guitar.png") no-repeat center right fixed;
   background-size: contain;
   background-color: black;
 }
@@ -37,7 +36,7 @@ body {
   border-right: none;
   margin: 10px 0px;
   font-family: Crushed, serif;
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 2px;
   border-radius: 0px;
   padding: 3px 10px;
@@ -69,7 +68,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(195 169 141);
   padding: 0px 8px;
   transition: 0.5s;
   border-top: 2px solid rgb(0, 0, 0);
@@ -137,7 +136,7 @@ a {
  **********************************************************************/
 .content {
   text-align: center;
-  max-width: 1200px;
+  max-width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,7 +145,6 @@ a {
 }
 
 .tile {
-  min-width: 950px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -187,8 +185,8 @@ a {
 }
 
 .text-tile-text-emp {
-  color: rgb(243, 234, 219);
-  font-size: 22px;
+  color: rgb(143, 116, 88);
+  font-size: 30px;
   width: 95%;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -466,7 +464,7 @@ a {
   }
 
   .text-tile {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+    background-image: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
     position: absolute;
     top: 50%;
     left: 50%;
@@ -481,6 +479,7 @@ a {
   .text-tile-text-emp {
     font-size: 19px;
     text-shadow: 2px 2px 10px #000000;
+    color: rgb(195 169 141);
   }
   .text-tile-text-minor {
     font-size: 18px;
