@@ -61,6 +61,6 @@ Carousel.propTypes = {
 };
 
 Carousel.defaultProps = {
-  width: 500,
+  width: 400,
   unit: "px",
 };
