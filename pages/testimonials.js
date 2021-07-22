@@ -8,53 +8,49 @@ const Home = () => (
         <Carousel>
           <div className="testimonial-container">
             <div className="testing">
-              <div className="testimonial-person" id="female1"></div>
+              <div className="testimonial-person" id="unknown"></div>
             </div>
             <div className="text-tile-text-emp testimonial-text">
-              "We love Walking Man! They always sound great. So talented."
+              "You have got to see Walking Man (the San Diego based James Taylor
+              tribute band). Their performance at the Belly Up in May 2019 was
+              stunningly good. This simply amazing band covers the folk-rock
+              songs from Taylor’s impactful 50 year career that are both gentle
+              & sweet as well as uplifting. If you want to see a great show that
+              will trigger your most beautiful and emotional nostalgic memories,
+              do not miss Walking Man!""You have got to see Walking Man (the San
+              Diego based James Taylor tribute band). Their performance at the
+              Belly Up in May 2019 was stunningly good. This simply amazing band
+              covers the folk-rock songs from Taylor’s impactful 50 year career
+              that are both gentle & sweet as well as uplifting. If you want to
+              see a great show that will trigger your most beautiful and
+              emotional nostalgic memories, do not miss Walking Man!"
               <p className="text-tile-text-minor testimonial-text">
-                - Rebecca Whiteman at House of Blues
+                - Raffi Simonian
               </p>
             </div>
           </div>
           <div className="testimonial-container">
             <div className="testing">
-              <div className="testimonial-person" id="male1"></div>
+              <div className="testimonial-person" id="unknown"></div>
             </div>
             <div className="text-tile-text-emp testimonial-text testimonial-text">
-              "I hired Walking Man for a corporate event in 2019, and they were
-              a massive success setting the mood for our event. They sound just
-              like James Taylor...plus they're just nice guys. Thanks Walking
-              Man!"
+              “The show was flawless. Each song sounds true to the original;
+              faithfully reproduced from beginning to end. Amazing, I would hire
+              them again without hesitation, and plan to do so.”
               <p className="text-tile-text-minor testimonial-text">
-                - David Davidson
+                - Greg Howard, CEO, Carecraft
               </p>
             </div>
           </div>
           <div className="testimonial-container">
             <div className="testing">
-              <div className="testimonial-person" id="male2"></div>
+              <div className="testimonial-person" id="unknown"></div>
             </div>
             <div className="text-tile-text-emp testimonial-text testimonial-text">
-              "Walking Man has been a reliable act at my vineyard: every time
-              they play we get requests from customers of when they will be
-              back!"
+              “The Walking Man Tribute is an absolute pleasure to witness.
+              Musical Mastery of some of America’s finest songs.”
               <p className="text-tile-text-minor testimonial-text">
-                - Ron E. at Escondido Winery
-              </p>
-            </div>
-          </div>
-          <div className="testimonial-container">
-            <div className="testing">
-              <div className="testimonial-person" id="female2"></div>
-            </div>
-            <div className="text-tile-text-emp testimonial-text testimonial-text">
-              "My favorite thing about Walking Man, behind the music, is the
-              reliability. They were a pleasure to work with, and made the
-              unknowns of hiring professional musicians for our event easy.
-              Thank you guys!"
-              <p className="text-tile-text-minor testimonial-text">
-                - Slyvia at Il Processeco
+                - Damian DeRobbio, Belly Up Tavern, Solana Beach, California
               </p>
             </div>
           </div>

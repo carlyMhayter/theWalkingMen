@@ -268,7 +268,7 @@ a {
   font-size: 2em;
   color: #e09200;
   font-family: Crushed, serif;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .member-info {
@@ -335,8 +335,8 @@ a {
 .testimonial-person {
   background-color: tomato;
   border-radius: 50px;
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   /* filter: sepia(1); */
   border: 5px solid rgb(185, 121, 25);
 }
@@ -366,6 +366,12 @@ a {
 #male2 {
   background-image: url("https://randomuser.me/api/portraits/men/12.jpg");
   background-position: center;
+}
+
+#unknown {
+  background-image: url("./public/profile-pic.jpeg");
+  background-position: center;
+  background-size: contain;
 }
 
 .testimonial-tile {
@@ -477,7 +483,7 @@ a {
     margin-left: 0px;
   }
   .text-tile-text-emp {
-    font-size: 19px;
+    font-size: 15px;
     text-shadow: 2px 2px 10px #000000;
     color: rgb(195 169 141);
   }

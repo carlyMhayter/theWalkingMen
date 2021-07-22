@@ -8,98 +8,87 @@ const Home = () => (
         <div className="text-tile bio-text-tile inner-tile">
           <p className="text-tile-text-emp bio-name">Meet the band</p>
           <p className="text-tile-text-minor bio-text">
-            Formed in 2017 by 4 lifetime musicians, Walking Man has been playing
-            music for a collective 100 years. United by their love and
-            admiration by the soungwriting of James Taylor, they began making
-            music together after connecting through mutual friends.
+            For the last four decades David Sheils and Tim Godwin have been
+            writing and performing music worldwide. When they both ended up
+            making San Diego their home it seemed only right to put together
+            something very special.
           </p>
           <p className="text-tile-text-minor bio-text">
-            Since connecting, they have played such famous local San Diego
-            joints as the House of Blues and many other venues.
+            Walking Man was born from two musicians great respect for one
+            another and their longing to continue to perform in venues across
+            the US. Having been influenced by the legendary style of James
+            Taylor it made even more sense to create a project that paid
+            ultimate respect to his music. Walking Man will take you down that
+            Country Road James Taylor wrote about so many years ago and into his
+            living room with songs like the Secret of Life. A truly heartfelt
+            and authentic interpretation of the music of James Taylor.
           </p>
         </div>
       </div>
       {/* first member */}
       <div className="tile tile2 bio-tile">
         <div className="text-tile bio-text-tile inner-tile">
-          <p className="text-tile-text-emp bio-name">Tom McTom</p>
-          <p className="member-info"> Vocalist, rhythm guitar </p>
+          <p className="text-tile-text-emp bio-name">Tim Gowdin</p>
+          <p className="member-info"> Vocalist </p>
           <p className="text-tile-text-minor bio-text">
-            Tom was born in Wahoo Michigan and was raised on the sounds of blues
-            and rock and roll. He brought his first guitar at age 13 and
-            starting writing his own songs shortly therafter.
-          </p>
-          <p className="text-tile-text-minor bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Godwin has worked with such notable artists as Air Supply, Laura
+            Brannigan, Shelby Lynne, Farmer, Tanya Tucker and been involved in
+            numerous television projects and studio house bands.
           </p>
         </div>
-        <div id="vocalist" className="img-tile inner-til artist-img" />
+        <div id="unknown" className="img-tile inner-til artist-img" />
       </div>
       {/* second member*/}
       <div className="tile tile1 bio-tile">
-        <div id="guitarist1" className="img-tile inner-tile artist-img" />
+        <div id="unknown" className="img-tile inner-tile artist-img" />
         <div className="text-tile bio-text-tile inner-tile">
-          <p className="text-tile-text-emp bio-name">Mike Hayter</p>
-          <p className="member-info"> Bass guitar, rhythm guitar </p>
-
+          <p className="text-tile-text-emp bio-name">David Sheils</p>
+          <p className="member-info"> Lead Guitar, back-up vocals </p>
           <p className="text-tile-text-minor bio-text">
-            Mike Hayter was born in a 1 bedroom house in Detroit Michigan, and
-            relocated to San Diego, California in the early 70's. He grew up in
-            Southern California surfing and playing gigs where ever he found
-            them. He grew up on the sounds of Jimi Hendrix and Led Zeppelin.
-          </p>
-          <p className="text-tile-text-minor bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Sheils has worked with wide variety of artists including Chicago,
+            Toto, Mary Travers, Tower of Power, Billy Vera, Pat Benatar and
+            written songs for Billy Preston and Freda Payne.
           </p>
         </div>
       </div>
       {/* third member*/}
       <div className="tile tile2 bio-tile">
         <div className="text-tile inner-tile bio-text-tile">
-          <p className="text-tile-text-emp bio-name">Mark Markerson</p>
-          <p className="member-info">Lead guitar, keyboards, back-up vocals</p>
+          <p className="text-tile-text-emp bio-name">Michael Hayter</p>
+          <p className="member-info"> Bass guitar, back-up vocals</p>
 
           <p className="text-tile-text-minor bio-text">
-            Tom was born in Wahoo Michigan and was raised on the sounds of blues
-            and rock and roll. He brought his first guitar at age 13 and
-            starting writing his own songs shortly therafter.
-          </p>
-          <p className="text-tile-text-minor bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Well known local San Diego musician joins Walking Man on bass
+            guitar.
           </p>
         </div>
-        <div id="guitarist2" className="img-tile inner-til artist-img" />
+        <div id="unknown" className="img-tile inner-til artist-img" />
       </div>
       {/* fourth member*/}
       <div className="tile tile1 bio-tile">
-        <div id="drummer" className="img-tile inner-tile artist-img" />
+        <div id="unknown" className="img-tile inner-tile artist-img" />
         <div className="text-tile bio-text-tile inner-tile">
-          <p className="text-tile-text-emp bio-name">Dave Daverson</p>
+          <p className="text-tile-text-emp bio-name">Al Cacas</p>
           <p className="member-info"> Percussion, back-up vocals</p>
 
           <p className="text-tile-text-minor bio-text">
-            Mike Hayter was born in a 1 bedroom house in Detroit Michigan, and
-            relocated to San Diego, California in the early 70's. He grew up in
-            Southern California surfing and playing gigs where ever he found
-            them. He grew up on the sounds of Jimi Hendrix and Led Zeppelin.
-          </p>
-          <p className="text-tile-text-minor bio-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            A San Diego native also well known in the SD music scene, Al Cacas
+            performs drums in Walking Man.
           </p>
         </div>
       </div>
+    </div>
+    {/* fifth member*/}
+    <div className="tile tile2 bio-tile">
+      <div className="text-tile inner-tile bio-text-tile">
+        <p className="text-tile-text-emp bio-name">Kylea Sheils</p>
+        <p className="member-info"> Main and back-up vocals</p>
+        <p className="text-tile-text-minor bio-text">
+          Life-long vocalist adds her wonderful vocals to the sound of Walking
+          Man.
+        </p>
+      </div>
+      <div id="unknown" className="img-tile inner-til artist-img" />
     </div>
   </div>
 );
