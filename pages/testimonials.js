@@ -17,13 +17,7 @@ const Home = () => (
               songs from Taylor’s impactful 50 year career that are both gentle
               & sweet as well as uplifting. If you want to see a great show that
               will trigger your most beautiful and emotional nostalgic memories,
-              do not miss Walking Man!""You have got to see Walking Man (the San
-              Diego based James Taylor tribute band). Their performance at the
-              Belly Up in May 2019 was stunningly good. This simply amazing band
-              covers the folk-rock songs from Taylor’s impactful 50 year career
-              that are both gentle & sweet as well as uplifting. If you want to
-              see a great show that will trigger your most beautiful and
-              emotional nostalgic memories, do not miss Walking Man!"
+              do not miss Walking Man!"
               <p className="text-tile-text-minor testimonial-text">
                 - Raffi Simonian
               </p>
