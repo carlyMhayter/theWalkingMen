@@ -258,22 +258,26 @@ a {
 }
 
 #dave {
-  background-image: url("./public/dave_edit3.jpg");
+  background-image: url("./public/dave_bw.jpg");
 }
 
 #dave_tim {
-  background-image: url("./public/dave_tim_edit2.jpg");
+  background-image: url("./public/dave_tim_bw\ \(1\).jpg");
 }
 
 #mike {
-  background-image: url("./public/Mike1_orange.jpg");
+  background-image: url("./public/Mike_bw.jpg");
 }
 
 #tim {
-  background-image: url("./public/Tim_orange.jpg");
+  background-image: url("./public/Tim_bw.jpg");
 }
 #al {
-  background-image: url("./public/Al_edit.jpg");
+  background-image: url("./public/Al_bw.jpg");
+}
+
+#kylie {
+  background-image: url("./public/Kylie_bw.jpg");
 }
 /***********************************************************************
  *  Page Details

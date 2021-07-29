@@ -94,7 +94,7 @@ const Home = () => (
             Man.
           </p>
         </div>
-        <div id="unknown" className="img-tile inner-til artist-img" />
+        <div id="kylie" className="img-tile inner-til artist-img" />
       </div>
     </div>
   </div>
