@@ -165,6 +165,7 @@ a {
   background-size: cover;
   border-radius: 5px;
   box-shadow: -5px 5px 20px 1px rgba(48, 34, 34, 0.5);
+  background-position: center;
 }
 
 .text-tile {
@@ -252,7 +253,28 @@ a {
 #vocalist {
   background-image: url("https://images.pexels.com/photos/1918159/pexels-photo-1918159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
+#group1 {
+  background-image: url("./public/Group_edit_orange.jpg");
+}
 
+#dave {
+  background-image: url("./public/dave_edit3.jpg");
+}
+
+#dave_tim {
+  background-image: url("./public/dave_tim_edit2.jpg");
+}
+
+#mike {
+  background-image: url("./public/Mike1_orange.jpg");
+}
+
+#tim {
+  background-image: url("./public/Tim_orange.jpg");
+}
+#al {
+  background-image: url("./public/Al_edit.jpg");
+}
 /***********************************************************************
  *  Page Details
  **********************************************************************/

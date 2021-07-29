@@ -36,7 +36,7 @@ const Home = () => {
             <div id="cali" className="img-tile inner-tile" />
           </div>
           <div className="tile tile1">
-            <div id="gig" className="img-tile inner-tile" />
+            <div id="group1" className="img-tile inner-tile" />
             <div className="text-tile inner-tile">
               <p className="text-tile-text-emp">
                 Perfect for your event, both business and personal.

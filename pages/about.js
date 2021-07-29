@@ -4,7 +4,7 @@ const Home = () => (
     <div className="content">
       {/* Band info Tile Main */}
       <div className="tile tile1 bio-tile">
-        <div className="img-tile inner-tile" id="band-photo" />
+        <div className="img-tile inner-tile" id="dave_tim" />
         <div className="text-tile bio-text-tile inner-tile">
           <p className="text-tile-text-emp bio-name">Meet the band</p>
           <p className="text-tile-text-minor bio-text">
@@ -43,11 +43,11 @@ const Home = () => (
             numerous television projects and studio house bands.
           </p>
         </div>
-        <div id="unknown" className="img-tile inner-til artist-img" />
+        <div id="tim" className="img-tile inner-til artist-img" />
       </div>
       {/* second member*/}
       <div className="tile tile1 bio-tile">
-        <div id="unknown" className="img-tile inner-tile artist-img" />
+        <div id="dave" className="img-tile inner-tile artist-img" />
         <div className="text-tile bio-text-tile inner-tile">
           <p className="text-tile-text-emp bio-name">David Sheils</p>
           <p className="member-info"> Lead Guitar, back-up vocals </p>
@@ -69,11 +69,11 @@ const Home = () => (
             guitar.
           </p>
         </div>
-        <div id="unknown" className="img-tile inner-til artist-img" />
+        <div id="mike" className="img-tile inner-til artist-img" />
       </div>
       {/* fourth member*/}
       <div className="tile tile1 bio-tile">
-        <div id="unknown" className="img-tile inner-tile artist-img" />
+        <div id="al" className="img-tile inner-tile artist-img" />
         <div className="text-tile bio-text-tile inner-tile">
           <p className="text-tile-text-emp bio-name">Al Cacas</p>
           <p className="member-info"> Percussion, back-up vocals</p>
