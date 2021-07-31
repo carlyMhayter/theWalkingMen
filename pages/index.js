@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Button from "components/Button";
+import ReactPlayer from "react-player/youtube";
+import React from "react";
 
 const Home = () => {
   const router = useRouter();
@@ -12,16 +14,27 @@ const Home = () => {
           <img className="cover-logo" src="/white-logo-brownAccent.png" />
         </div>
         <div className="content">
+          {/*Video Tile */}
+          <div className="tile">
+            <div className="" id="video-container">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=lx1kwFJaZXs"
+                width="100%"
+                height="100%"
+              />
+            </div>
+          </div>
           <div className="tile tile1">
-            <div className="img-tile inner-tile" id="guitar" />
+            <div id="dave_tim2" className="img-tile inner-tile" />
             <div className="text-tile inner-tile">
               <p className="text-tile-text-emp">
                 The premier James Taylor tribute band in Southern California.
               </p>
-              <p className="text-tile-text-minor">Take a listen!</p>
-              <Button onClick={() => router.push("/listen")}>- Listen -</Button>
+              <p className="text-tile-text-minor">Hear their sound:</p>
+              <Button onClick={() => router.push("/listen")}>- Video -</Button>
             </div>
           </div>
+
           <div className="tile tile2">
             <div className="text-tile inner-tile">
               <p className="text-tile-text-emp">
@@ -36,8 +49,11 @@ const Home = () => {
             <div id="cali" className="img-tile inner-tile" />
           </div>
           <div className="tile tile1">
-            <div id="group1" className="img-tile inner-tile" />
-            <div className="text-tile inner-tile">
+            <div
+              id="group1"
+              className="img-tile inner-tile vertical-tile-image"
+            />
+            <div className="text-tile inner-tile vertical-tile-text">
               <p className="text-tile-text-emp">
                 Perfect for your event, both business and personal.
               </p>

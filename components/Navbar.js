@@ -17,9 +17,14 @@ const NavBar = () => (
       </div>
       <div className="navlink">
         <Link href="/listen">
-          <a> Listen </a>
+          <a> Video </a>
         </Link>
       </div>
+      {/* <div className="navlink">
+        <Link href="/">
+          <a> Song List </a>
+        </Link>
+      </div> */}
     </div>
     <div className="right-links navbar-links">
       <div className="navlink">
