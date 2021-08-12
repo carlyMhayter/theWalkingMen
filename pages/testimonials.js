@@ -7,6 +7,36 @@ const Home = () => (
       <div className="tile testimonial-tile">
         <Carousel>
           <div className="testimonial-container">
+            {/*damian derobbio*/}
+            <div className="testing">
+              <div className="testimonial-person" id="unknown"></div>
+            </div>
+            <div className="text-tile-text-emp testimonial-text testimonial-text">
+              “The Walking Man Tribute is an absolute pleasure to witness.
+              Musical Mastery of some of America’s finest songs.”
+              <p className="text-tile-text-minor testimonial-text">
+                - Damian DeRobbio, Belly Up Tavern, Solana Beach, California
+              </p>
+            </div>
+          </div>
+
+          <div className="testimonial-container">
+            {/*greg howard*/}
+            <div className="testing">
+              <div className="testimonial-person" id="unknown"></div>
+            </div>
+            <div className="text-tile-text-emp testimonial-text testimonial-text">
+              “The show was flawless. Each song sounds true to the original;
+              faithfully reproduced from beginning to end. Amazing, I would hire
+              them again without hesitation, and plan to do so.”
+              <p className="text-tile-text-minor testimonial-text">
+                - Greg Howard, CEO, Carecraft
+              </p>
+            </div>
+          </div>
+
+          <div className="testimonial-container">
+            {/*raffi*/}
             <div className="testing">
               <div className="testimonial-person" id="unknown"></div>
             </div>
@@ -20,31 +50,6 @@ const Home = () => (
               do not miss Walking Man!"
               <p className="text-tile-text-minor testimonial-text">
                 - Raffi Simonian
-              </p>
-            </div>
-          </div>
-          <div className="testimonial-container">
-            <div className="testing">
-              <div className="testimonial-person" id="unknown"></div>
-            </div>
-            <div className="text-tile-text-emp testimonial-text testimonial-text">
-              “The show was flawless. Each song sounds true to the original;
-              faithfully reproduced from beginning to end. Amazing, I would hire
-              them again without hesitation, and plan to do so.”
-              <p className="text-tile-text-minor testimonial-text">
-                - Greg Howard, CEO, Carecraft
-              </p>
-            </div>
-          </div>
-          <div className="testimonial-container">
-            <div className="testing">
-              <div className="testimonial-person" id="unknown"></div>
-            </div>
-            <div className="text-tile-text-emp testimonial-text testimonial-text">
-              “The Walking Man Tribute is an absolute pleasure to witness.
-              Musical Mastery of some of America’s finest songs.”
-              <p className="text-tile-text-minor testimonial-text">
-                - Damian DeRobbio, Belly Up Tavern, Solana Beach, California
               </p>
             </div>
           </div>
