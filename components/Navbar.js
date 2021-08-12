@@ -3,24 +3,63 @@ import Link from "next/link";
 import React from "react";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState();
+  const [isOpen, setIsOpen] = useState(false);
 
   const showDropdown = useCallback(() => {
-    setIsOpen(true);
-  }, []);
+    let opposite = true;
+    if (isOpen) {
+      opposite = false;
+    } else {
+      opposite = true;
+    }
+    setIsOpen(opposite);
+  }, [isOpen]);
 
   useEffect(() => {
-    console.log("fart");
     document.addEventListener("click", () => {
-      if (isOpen) {
+      let target1 = event.target.className;
+      if (isOpen && target1 != "dropDown-btn") {
         setIsOpen(false);
       }
     });
-  }, [isOpen, setIsOpen]);
+  }, [isOpen]);
+
   return (
     <>
       <nav className="navbar">
         <div className="link-container navbar-links">
+          <div id="longDisplay" className="text-links ">
+            <div className="navlink">
+              <Link href="/">
+                <a> Home </a>
+              </Link>
+            </div>
+            <div className="navlink">
+              <Link href="/about">
+                <a> About </a>
+              </Link>
+            </div>
+            <div className="navlink">
+              <Link href="/video">
+                <a> Video </a>
+              </Link>
+            </div>
+            <div className="navlink ">
+              <Link href="/songlist">
+                <a> Song List </a>
+              </Link>
+            </div>
+            <div className="navlink">
+              <Link href="/testimonials">
+                <a> Testimonials </a>
+              </Link>
+            </div>
+            <div className="navlink">
+              <Link href="/contact">
+                <a> Contact </a>
+              </Link>
+            </div>
+          </div>
           <div className="navlink img-link">
             <Link href="/">
               <a>
@@ -31,6 +70,7 @@ const NavBar = () => {
               </a>
             </Link>
           </div>
+
           <div className="dropdown">
             <img
               className="dropDown-btn"

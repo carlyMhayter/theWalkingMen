@@ -619,4 +619,8 @@ a {
     display: flex;
     justify-content: space-between;
   }
+
+  #longDisplay {
+    display: none;
+  }
 }
