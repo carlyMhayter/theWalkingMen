@@ -74,7 +74,7 @@ const NavBar = () => {
           <div className="dropdown">
             <img
               className="dropDown-btn"
-              src="/dropdown-btn.png"
+              src="/dropdown-btn_gold.png"
               onClick={showDropdown}
             />
             {isOpen && (

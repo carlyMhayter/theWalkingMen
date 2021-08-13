@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div className="master-container">
         <div className="cover">
-          <img className="cover-logo" src="/white-logo-brownAccent.png" />
+          <img className="cover-logo" src="/colorized-logo2.png" />
         </div>
         <div className="content">
           {/*Video Tile */}
