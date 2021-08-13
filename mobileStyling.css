@@ -1,4 +1,7 @@
 @media only screen and (max-width: 950px) {
+  html {
+    min-width: 400px;
+  }
   .navlink {
     font-size: 22px;
     display: flex;
@@ -22,11 +25,16 @@
   }
   .content {
     width: 400px;
+    display: flex;
+    justify-content: center;
+    max-width: 401px;
+    flex-direction: column;
+    align-items: center;
   }
   .tile {
     flex-direction: column;
     position: relative;
-    width: 400px;
+    width: 350px;
     min-width: 1px;
     padding: 5px;
   }
@@ -86,15 +94,15 @@
   }
 
   .form-contact {
-    max-width: 700px;
+    max-width: 350px;
     display: block;
     flex-direction: none;
     justify-content: none;
   }
 
   .testimonial-tile {
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 350px;
+    max-width: 350px;
   }
 
   #video-text-tile {
@@ -106,7 +114,7 @@
 
   #video-container {
     height: 225px;
-    width: 400px;
+    width: 350px;
   }
   .dropDown-btn {
     display: block;
@@ -139,7 +147,7 @@
   }
 
   .link-container {
-    width: 400px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
   }

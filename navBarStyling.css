@@ -78,7 +78,7 @@ a {
 .dropDown-btn {
   display: none;
   height: 30px;
-  width: 50px;
+  width: 70px;
   transition: 0.5s;
   filter: brightness(75%);
 }
