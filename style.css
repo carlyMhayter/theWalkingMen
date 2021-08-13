@@ -304,7 +304,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  width: 350px;
+  text-align: center;
 }
 
 .testimonial-person {

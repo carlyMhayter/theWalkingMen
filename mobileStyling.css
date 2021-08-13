@@ -99,10 +99,23 @@
     flex-direction: none;
     justify-content: none;
   }
-
+  .testing {
+    max-width: 350px;
+    padding: 0px 0px 10px 0px;
+  }
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .testimonial-tile {
     min-width: 350px;
     max-width: 350px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    max-width: 300px;
   }
 
   #video-text-tile {

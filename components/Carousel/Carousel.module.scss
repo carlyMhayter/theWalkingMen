@@ -1,7 +1,7 @@
 .parent {
   position: relative;
   margin: 0 auto;
-  width: 500px;
+  width: 350px;
 }
 
 .container {
@@ -35,7 +35,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  width: 400px;
+  width: 350px;
   height: 100%;
   pointer-events: none;
   z-index: 2;
@@ -64,6 +64,6 @@
 
 @media only screen and (max-width: 950px) {
   .parent {
-    width: 400;
+    width: 350;
   }
 }
