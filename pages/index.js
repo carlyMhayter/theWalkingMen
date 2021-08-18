@@ -31,7 +31,7 @@ const Home = () => {
                 The premier James Taylor tribute band in Southern California.
               </p>
               <p className="text-tile-text-minor">Hear their sound:</p>
-              <Button onClick={() => router.push("/listen")}>- Video -</Button>
+              <Button onClick={() => router.push("/video")}>- Video -</Button>
             </div>
           </div>
 
